@@ -3,7 +3,7 @@ name: Build and Push Docker Image to Docker Hub
 on:
   push:
     branches:
-      - main  # O usa "master" si tu rama se llama así
+      - master  # O usa "master" si tu rama se llama así
 
 jobs:
   build-and-push:
